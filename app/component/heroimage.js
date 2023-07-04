@@ -6,26 +6,23 @@ export default function HeroImage({ar=false}) {
     <>
     {ar==false?
     <>
-    <header className='w-full h-96 bg-[url("/watertanker1.png")] bg-cover bg-center flex justify-center items-center'>
+    <div className='w-full h-96 bg-[url("/hero.jpeg")] bg-cover bg-center flex justify-center items-center'>
       <div className="flex flex-col justify-center items-center">
         <h1 className=" text-center text-5xl text-white font-bold drop-shadow-lg">
-          WELCOME TO
-          <span className="text-amber-500">KINDACODE.COM</span>
+          WELCOME TO <br/>          <span className="text-amber-500"> Sweet Water Supply</span>
         </h1>
-        <p className="mt-5 text-center text-lg text-white opacity-70">
-          This webiste is about programming and things like that
+        <p className="mt-5 text-center text-lg  ">
+          24/7 water tanker service 
         </p>
         <a
           className="mt-8 px-12 py-3 bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full"
           href="#"
         >
-          Get Started
+          Book Now
         </a>
       </div>
-    </header>
-    <div className="container p-20">
-      <h1 className="text-4xl">Other Content</h1>
     </div>
+   
   </>
   
     :
